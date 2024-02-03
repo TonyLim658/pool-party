@@ -1,7 +1,6 @@
 {
   "name": "poule-party",
   "version": "0.2.0",
-  "homepage": "https://tonylim658.github.io/poule-party/",
   "private": true,
   "scripts": {
     "dev": "next dev",

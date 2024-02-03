@@ -7,6 +7,9 @@ import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
+import Programmation from "@/components/Programmation";
+import RolesSectionOne from "@/components/Roles/RolesSectionOne";
+import RolesSectionTwo from "@/components/Roles/RolesSectionTwo";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
@@ -29,6 +32,9 @@ export default function Home() {
       <AboutSectionTwo />
       <Testimonials />
       <Pricing />
+      <Programmation />
+      <RolesSectionOne />
+      <RolesSectionTwo />
       <Blog />
       <Contact />
     </>
