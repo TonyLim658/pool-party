@@ -21,12 +21,32 @@ const menuData: Menu[] = [
   },
   {
     id: 4,
-    title: "À propos",
-    path: "/about",
+    title: "Accès au lieu",
+    path: "/access",
     newTab: false,
   },
   {
     id: 5,
+    title: "À propos",
+    path: "/about",
+    newTab: false,
+    submenu: [
+      {
+        id: 51,
+        title: "A propos 1",
+        path: "/about",
+        newTab: false,
+      },
+      {
+        id: 52,
+        title: "A propos 2",
+        path: "/about#about2",
+        newTab: false,
+      }
+    ],
+  },
+  {
+    id: 6,
     title: "Contact",
     path: "/contact",
     newTab: false,
