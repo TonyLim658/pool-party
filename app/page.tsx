@@ -1,5 +1,7 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import AccessSectionOne from "@/components/Access/AccessSectionOne";
+import AccessSectionTwo from "@/components/Access/AccessSectionTwo";
 import Blog from "@/components/Blog";
 import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
@@ -31,6 +33,8 @@ export default function Home() {
       <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
+      <AccessSectionOne />
+      <AccessSectionTwo />
       <Testimonials />
       <Pricing />
       <Programmation />
