@@ -57,11 +57,18 @@ const Header = () => {
                 } `}
               >
                 <Image
+                  src="/images/logo/typo-light.webp"
+                  alt="logo"
+                  width={140}
+                  height={30}
+                  className="w-full dark:hidden"
+                />
+                <Image
                   src="/images/logo/typo.webp"
                   alt="logo"
                   width={140}
                   height={30}
-                  className="w-full"
+                  className="hidden w-full dark:block"
                 />
               </Link>
             </div>
