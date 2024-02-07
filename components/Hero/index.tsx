@@ -9,18 +9,15 @@ const Hero = () => {
         className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[70px] md:pb-[120px] md:pt-[78px] xl:pb-[160px] xl:pt-[85px] 2xl:pb-[200px] 2xl:pt-[90px]"
       >
         <div>
-          <div className="-mx-4 flex flex-wrap">
+          <div className="flex flex-wrap">
             <div className="w-full">
               <div
-                className="wow fadeInUp mx-auto text-center"
+                className="wow fadeInUp mx-auto text-center flex-col space-y-8"
                 data-wow-delay=".6s"
               >
                 <div className="flex lg:pr-0">
-                  <img src="/images/hero/visu1.webp" alt="visu-index" className="w-full max-w-full"/>
+                  <img src="/images/hero/index.webp" alt="visu-index" className="w-full max-w-full"/>
                 </div>
-                <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
-                  {"[Visuel de la page d'accueil]"}
-                </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://discord.gg/w265nhhzBX"
