@@ -1,22 +1,23 @@
 import Link from "next/link";
+// import Image from "next/image";
 
 const Hero = () => {
   return (
     <>
       <section
         id="home"
-        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[70px] md:pb-[120px] md:pt-[78px] xl:pb-[160px] xl:pt-[85px] 2xl:pb-[200px] 2xl:pt-[90px]"
       >
-        <div className="container">
+        <div>
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4">
+            <div className="w-full">
               <div
-                className="wow fadeInUp mx-auto max-w-[800px] text-center"
-                data-wow-delay=".2s"
+                className="wow fadeInUp mx-auto text-center"
+                data-wow-delay=".6s"
               >
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  POULE PARTY
-                </h1>
+                <div className="flex lg:pr-0">
+                  <img src="/images/hero/visu1.webp" alt="visu-index" className="w-full max-w-full"/>
+                </div>
                 <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
                   {"[Visuel de la page d'accueil]"}
                 </p>
@@ -24,6 +25,7 @@ const Hero = () => {
                   <Link
                     href="https://discord.gg/w265nhhzBX"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                    target="_blank"
                   >
                     <div className="flex gap-x-2">
                       🔥 Lien vers le Discord

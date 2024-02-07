@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://poule-party.vercel.app/">
-    <img src="public/images/logo/logo-carre.png" alt="Logo" width="80" height="80">
+    <img src="public/images/logo/500x500.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Poule Party Website</h3>
