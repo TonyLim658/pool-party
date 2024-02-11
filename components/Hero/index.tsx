@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[70px] md:pb-[120px] md:pt-[78px] xl:pb-[160px] xl:pt-[85px] 2xl:pb-[200px] 2xl:pt-[90px]"
+        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[70px] md:pb-[78px] md:pt-[78px] xl:pb-[85px] xl:pt-[85px] 2xl:pb-[90px] 2xl:pt-[90px]"
       >
         <div>
           <div className="flex flex-wrap">
