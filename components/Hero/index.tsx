@@ -31,12 +31,14 @@ const Hero = () => {
                       </svg>
                     </div>
                   </Link>
-                  {/* <Link
-                    href="https://github.com/NextJSTemplates/startup-nextjs"
-                    className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                  <Link
+                    href="/"  // TODO: Add the link to the form
+                    className="inline-block rounded-sm bg-green-600 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-green-600/90"
                   >
-                    Star on GitHub
-                  </Link> */}
+                  <div className="flex gap-x-2">
+                    🤓 Lien vers le Formulaire 📝
+                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
