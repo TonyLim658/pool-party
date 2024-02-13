@@ -1,9 +1,9 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 
-const Projet = () => {
+const Project = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28">
+    <section className="py-16 md:py-20 lg:py-28" id="project">
       <div className="container">
           <SectionTitle
             title="Le Projet"
@@ -57,4 +57,4 @@ const Projet = () => {
   );
 };
 
-export default Projet;
+export default Project;

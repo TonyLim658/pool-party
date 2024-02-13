@@ -1,7 +1,8 @@
 import ScrollUp from "@/components/Common/ScrollUp";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
-import Projet from "@/components/Hero/Projet";
+import Project from "@/components/Hero/Project";
+import Join from "@/components/Hero/Join";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -15,7 +16,8 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <Projet />
+      <Project />
+      <Join />
     </>
   );
 }
