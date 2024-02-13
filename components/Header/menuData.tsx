@@ -47,7 +47,7 @@ const menuData: Menu[] = [
   },
   {
     id: 6,
-    title: "Contact",
+    title: "Contact & Formulaires",
     path: "/contact",
     newTab: false,
   }

@@ -5,6 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
+      <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent via-[#959CB183]"></div>
       <footer
         className="wow fadeInUp dark:bg-gray-dark relative z-10 bg-white pt-16 md:pt-20 lg:pt-24"
         data-wow-delay=".1s"
@@ -15,37 +16,33 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/images/logo/typo-light.webp"
                     alt="logo"
-                    className="w-full dark:hidden"
                     width={140}
                     height={30}
+                    className="w-full dark:hidden"
                   />
                   <Image
-                    src="/images/logo/logo.svg"
+                    src="/images/logo/typo.webp"
                     alt="logo"
-                    className="hidden w-full dark:block"
                     width={140}
                     height={30}
+                    className="hidden w-full dark:block"
                   />
                 </Link>
-                <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
+                {/* <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer lobortis.
-                </p>
-                <div className="flex items-center">
+                </p> */}
+                <div className="flex items-center mt-5">
                   <a
-                    href="/"
+                    href="https://discord.gg/w265nhhzBX"
                     aria-label="social-link"
                     className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                   >
-                    <svg
-                      width="9"
-                      height="18"
-                      viewBox="0 0 9 18"
-                      className="fill-current"
-                    >
-                      <path d="M8.13643 7H6.78036H6.29605V6.43548V4.68548V4.12097H6.78036H7.79741C8.06378 4.12097 8.28172 3.89516 8.28172 3.55645V0.564516C8.28172 0.254032 8.088 0 7.79741 0H6.02968C4.11665 0 2.78479 1.58064 2.78479 3.92339V6.37903V6.94355H2.30048H0.65382C0.314802 6.94355 0 7.25403 0 7.70564V9.7379C0 10.1331 0.266371 10.5 0.65382 10.5H2.25205H2.73636V11.0645V16.7379C2.73636 17.1331 3.00273 17.5 3.39018 17.5H5.66644C5.81174 17.5 5.93281 17.4153 6.02968 17.3024C6.12654 17.1895 6.19919 16.9919 6.19919 16.8226V11.0927V10.5282H6.70771H7.79741C8.11222 10.5282 8.35437 10.3024 8.4028 9.96371V9.93548V9.90726L8.74182 7.95968C8.76604 7.7621 8.74182 7.53629 8.59653 7.31048C8.54809 7.16935 8.33016 7.02823 8.13643 7Z" />
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_58_1626)">
+                      <path d="M15.2605 3.15841C15.2555 3.14872 15.2472 3.14112 15.2371 3.13698C14.0706 2.60162 12.8395 2.21975 11.5747 2.00094C11.5632 1.9988 11.5513 2.00034 11.5408 2.00534C11.5302 2.01034 11.5215 2.01855 11.5159 2.02879C11.3481 2.33318 11.1959 2.64583 11.0597 2.96555C9.69606 2.75857 8.30898 2.75857 6.94533 2.96555C6.80819 2.64501 6.65346 2.33228 6.48185 2.02879C6.47597 2.01877 6.4672 2.01076 6.4567 2.00579C6.44619 2.00082 6.43443 1.99913 6.42295 2.00094C5.15726 2.21908 3.92533 2.60097 2.75818 3.13698C2.74819 3.14122 2.73976 3.14845 2.73406 3.15768C0.400061 6.64401 -0.239138 10.042 0.0743392 13.4003C0.0752214 13.4085 0.0777492 13.4165 0.0817724 13.4237C0.0857956 13.431 0.0912319 13.4373 0.0977581 13.4424C1.45655 14.4477 2.9762 15.215 4.5919 15.7116C4.60328 15.715 4.61543 15.7148 4.62672 15.7111C4.63801 15.7074 4.6479 15.7004 4.65505 15.6909C5.00212 15.2188 5.30967 14.7189 5.57457 14.1962C5.57821 14.1891 5.58029 14.1812 5.58067 14.1732C5.58105 14.1651 5.57972 14.1571 5.57678 14.1496C5.57383 14.1421 5.56933 14.1353 5.56357 14.1297C5.55782 14.1241 5.55093 14.1198 5.54338 14.117C5.05838 13.9315 4.58884 13.7078 4.13916 13.4481C4.13099 13.4433 4.12413 13.4366 4.11919 13.4285C4.11424 13.4204 4.11136 13.4112 4.1108 13.4018C4.11024 13.3923 4.11202 13.3829 4.11598 13.3743C4.11994 13.3656 4.12595 13.3581 4.1335 13.3524C4.22785 13.2817 4.32226 13.2082 4.41235 13.1339C4.42036 13.1273 4.43004 13.1231 4.44032 13.1217C4.45059 13.1203 4.46105 13.1219 4.47052 13.1261C7.4164 14.4706 10.6054 14.4706 13.5167 13.1261C13.5261 13.1216 13.5367 13.1199 13.5471 13.1211C13.5576 13.1224 13.5674 13.1266 13.5756 13.1332C13.6657 13.2075 13.7601 13.2817 13.8551 13.3524C13.8627 13.3581 13.8688 13.3655 13.8728 13.3741C13.8768 13.3827 13.8787 13.3921 13.8782 13.4016C13.8777 13.411 13.8749 13.4202 13.87 13.4284C13.8651 13.4365 13.8583 13.4433 13.8502 13.4481C13.4015 13.71 12.9316 13.9336 12.4453 14.1164C12.4378 14.1193 12.4309 14.1237 12.4252 14.1294C12.4195 14.1351 12.415 14.142 12.4121 14.1495C12.4092 14.1571 12.408 14.1651 12.4084 14.1732C12.4089 14.1813 12.411 14.1891 12.4147 14.1963C12.684 14.7162 12.9911 15.2156 13.3334 15.6905C13.3404 15.7003 13.3502 15.7076 13.3615 15.7114C13.3729 15.7153 13.3851 15.7155 13.3966 15.712C15.0158 15.2165 16.5387 14.4481 17.8994 13.4401C17.906 13.4353 17.9115 13.4291 17.9155 13.4219C17.9196 13.4148 17.922 13.4069 17.9228 13.3987C18.2973 9.51857 17.2932 6.14808 15.2605 3.15841ZM6.0154 11.3553C5.12854 11.3553 4.39781 10.5413 4.39781 9.54183C4.39781 8.54232 5.11538 7.72771 6.0154 7.72771C6.92369 7.72771 7.64738 8.54875 7.63299 9.54122C7.63177 10.5135 6.91542 11.3553 6.0154 11.3553ZM11.9972 11.3553C11.1103 11.3553 10.3796 10.5413 10.3796 9.54183C10.3796 8.54232 11.0941 7.72771 11.9972 7.72771C12.9055 7.72771 13.6292 8.54875 13.6148 9.54122C13.6135 10.5135 12.9033 11.3553 11.9972 11.3553Z" fill="currentColor">
+                      </path></g><defs><clipPath id="clip0_58_1626"><rect width="18" height="18" fill="white"></rect></clipPath></defs>
                     </svg>
                   </a>
                   <a
@@ -53,27 +50,19 @@ const Footer = () => {
                     aria-label="social-link"
                     className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                   >
-                    <svg
-                      width="19"
-                      height="14"
-                      viewBox="0 0 19 14"
-                      className="fill-current"
-                    >
-                      <path d="M16.3024 2.26027L17.375 1.0274C17.6855 0.693493 17.7702 0.436644 17.7984 0.308219C16.9516 0.770548 16.1613 0.924658 15.6532 0.924658H15.4556L15.3427 0.821918C14.6653 0.282534 13.8185 0 12.9153 0C10.9395 0 9.3871 1.48973 9.3871 3.21062C9.3871 3.31336 9.3871 3.46747 9.41532 3.57021L9.5 4.0839L8.90726 4.05822C5.29435 3.95548 2.33065 1.13014 1.85081 0.642123C1.06048 1.92637 1.5121 3.15925 1.99194 3.92979L2.95161 5.36815L1.42742 4.5976C1.45565 5.67637 1.90726 6.52397 2.78226 7.14041L3.54435 7.65411L2.78226 7.93665C3.2621 9.24658 4.33468 9.78596 5.125 9.99144L6.16935 10.2483L5.18145 10.8647C3.60081 11.8921 1.625 11.8151 0.75 11.738C2.52823 12.8682 4.64516 13.125 6.1129 13.125C7.21371 13.125 8.03226 13.0223 8.22984 12.9452C16.1331 11.25 16.5 4.82877 16.5 3.54452V3.36473L16.6694 3.26199C17.629 2.44007 18.0242 2.00342 18.25 1.74658C18.1653 1.77226 18.0524 1.82363 17.9395 1.84932L16.3024 2.26027Z" />
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#959CB1"/>
+                      <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#959CB1"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#959CB1"/>
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="mailto:PoulePartyCrew@gmail.com"
                     aria-label="social-link"
                     className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                   >
-                    <svg
-                      width="18"
-                      height="14"
-                      viewBox="0 0 18 14"
-                      className="fill-current"
-                    >
-                      <path d="M17.5058 2.07119C17.3068 1.2488 16.7099 0.609173 15.9423 0.395963C14.5778 7.26191e-08 9.0627 0 9.0627 0C9.0627 0 3.54766 7.26191e-08 2.18311 0.395963C1.41555 0.609173 0.818561 1.2488 0.619565 2.07119C0.25 3.56366 0.25 6.60953 0.25 6.60953C0.25 6.60953 0.25 9.68585 0.619565 11.1479C0.818561 11.9703 1.41555 12.6099 2.18311 12.8231C3.54766 13.2191 9.0627 13.2191 9.0627 13.2191C9.0627 13.2191 14.5778 13.2191 15.9423 12.8231C16.7099 12.6099 17.3068 11.9703 17.5058 11.1479C17.8754 9.68585 17.8754 6.60953 17.8754 6.60953C17.8754 6.60953 17.8754 3.56366 17.5058 2.07119ZM7.30016 9.44218V3.77687L11.8771 6.60953L7.30016 9.44218Z" />
+                    <svg width="18" height="18" viewBox="4 4 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5 24.225V7.776h22v16.447H5v.002zm3.011-1.815h15.978l-5.111-5.115L16 20.179l-2.877-2.883-5.112 5.114zm-1.216-1.275l5.077-5.09-5.077-5.065v10.155zm13.332-5.09l5.079 5.09V10.979l-5.079 5.066zm-4.126 1.588l8.022-8.027-16.045-.001 8.023 8.028z" fill="#959CB1"/>
                     </svg>
                   </a>
                   <a
@@ -97,31 +86,31 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                  Liens utiles
                 </h2>
                 <ul>
                   <li>
                     <a
-                      href="/blogs"
+                      href="/programmation"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Blog
+                      Programmation
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/pricing"
+                      href="/access"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Pricing
+                      Accès au lieu
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/about"
+                      href="/"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      About
+                      Cagnotte
                     </a>
                   </li>
                 </ul>
@@ -131,7 +120,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                  Formulaires
                 </h2>
                 <ul>
                   <li>
@@ -139,7 +128,7 @@ const Footer = () => {
                       href="/"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      TOS
+                      Bénévole
                     </a>
                   </li>
                   <li>
@@ -147,7 +136,7 @@ const Footer = () => {
                       href="/"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Privacy Policy
+                      Artistes Scéniques
                     </a>
                   </li>
                   <li>
@@ -155,7 +144,7 @@ const Footer = () => {
                       href="/"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Refund Policy
+                      Exposants
                     </a>
                   </li>
                 </ul>
@@ -165,7 +154,7 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                  Support & Aide
                 </h2>
                 <ul>
                   <li>
@@ -173,15 +162,7 @@ const Footer = () => {
                       href="/contact"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Open Support Ticket
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Terms of Use
+                      Contact & Formulaires
                     </a>
                   </li>
                   <li>
@@ -189,7 +170,15 @@ const Footer = () => {
                       href="/about"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      About
+                      À propos
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="mailto:PoulePartyCrew@gmail.com"
+                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    >
+                      PoulePartyCrew@gmail.com
                     </a>
                   </li>
                 </ul>
