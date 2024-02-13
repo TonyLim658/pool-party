@@ -14,7 +14,10 @@ const Hero = () => {
                 className="wow fadeInUp mx-auto text-center flex-col space-y-8"
                 data-wow-delay=".6s"
               >
-                <div className="flex">
+                <div className="flex md:hidden">
+                  <img src="/images/hero/affiche.webp" alt="affiche" className="w-full max-w-full"/>
+                </div>
+                <div className="flex hidden md:block">
                   <img src="/images/hero/index.webp" alt="visu-index" className="w-full max-w-full"/>
                 </div>
               </div>
