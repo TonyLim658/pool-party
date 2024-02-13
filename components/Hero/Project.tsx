@@ -15,10 +15,9 @@ const Project = () => {
               className="wow fadeInUp relative mx-auto mb-12 aspect-[25/24] max-w-[700px] text-center lg:m-0"
               data-wow-delay=".15s"
             >
-              <Image
-                src="/images/Hero/project1.png"
+              <img
+                src="/images/hero/project1.webp"
                 alt="festival-stage"
-                fill
                 className="drop-shadow-three rounded-lg"
               />
             </div>

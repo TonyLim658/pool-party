@@ -158,10 +158,10 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/contact"
+                      href="/#join"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Contact & Formulaires
+                      Nous Rejoindre
                     </a>
                   </li>
                   <li>

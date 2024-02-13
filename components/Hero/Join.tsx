@@ -31,21 +31,21 @@ const Join = () => {
                 <div className="flex justify-evenly sm:space-x-4 sm:space-y-0">
                     <Link
                       href="/"  // TODO: Add the link to the form
-                      className="text-sm md:text-base inline-block px-4 md:px-6 py-1.5 rounded-sm bg-green-600 font-semibold text-white duration-300 ease-in-out hover:bg-green-600/90"
+                      className="text-sm md:text-base inline-block px-4 md:px-6 py-1.5 rounded-sm bg-sky-400 font-semibold text-black duration-300 ease-in-out hover:bg-sky-400/90"
                     >
-                      🐤Bénévole
+                      Bénévole
                     </Link>
                     <Link
                       href="/"  // TODO: Add the link to the form
-                      className="text-sm sm:text-base inline-block px-4 md:px-6 py-1.5 rounded-sm bg-green-600 font-semibold text-white duration-300 ease-in-out hover:bg-green-600/90"
+                      className="text-sm sm:text-base inline-block px-4 md:px-6 py-1.5 rounded-sm bg-violet-400 font-semibold text-black duration-300 ease-in-out hover:bg-violet-400/90"
                     >
-                      🎸Musicien
+                      Musicien
                     </Link>
                     <Link
                       href="/"  // TODO: Add the link to the form
-                      className="text-sm sm:text-base inline-block px-4 md:px-6 py-1.5 rounded-sm bg-green-600 font-semibold text-white duration-300 ease-in-out hover:bg-green-600/90"
+                      className="text-sm sm:text-base inline-block px-4 md:px-6 py-1.5 rounded-sm bg-fuchsia-400 font-semibold text-black duration-300 ease-in-out hover:bg-fuchsia-400/90"
                     >
-                      ✨Exposant
+                      Exposant
                     </Link>
                 </div>
               </div>
@@ -86,10 +86,9 @@ const Join = () => {
                 className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
                 data-wow-delay=".2s"
               >
-                <Image
-                  src="/images/Hero/join.png"
+                <img
+                  src="/images/hero/join.webp"
                   alt="join-image"
-                  fill
                   className="drop-shadow-three rounded-lg"
                 />
               </div>
