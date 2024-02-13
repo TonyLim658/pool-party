@@ -30,11 +30,10 @@ const Footer = () => {
                     className="hidden w-full dark:block"
                   />
                 </Link>
-                {/* <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
-                </p> */}
-                <div className="flex items-center mt-5">
+                <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
+                  La Poule Party est un évènement communautaire où tout le monde est bénévole, les festivaliers, les musiciens et les exposants.
+                </p>
+                <div className="flex items-center">
                   <a
                     href="https://discord.gg/w265nhhzBX"
                     aria-label="social-link"
