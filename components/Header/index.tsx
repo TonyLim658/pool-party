@@ -124,7 +124,16 @@ const Header = () => {
                               onClick={() => handleSubmenu(index)}
                               className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
                             >
-                              {menuItem.title}
+                              <Link
+                                href={menuItem.path}
+                                className={`flex text-base ${
+                                  usePathName === menuItem.path
+                                    ? "text-primary dark:text-white"
+                                    : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+                                }`}
+                              >
+                                {menuItem.title}
+                              </Link>
                               <span className="pl-3">
                                 <svg width="25" height="24" viewBox="0 0 25 24">
                                   <path
