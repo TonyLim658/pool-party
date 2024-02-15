@@ -15,10 +15,9 @@ const AccessPage = () => {
     <>
       <Breadcrumb
         pageName="Accès"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Pour venir sur place nous communiquerons l'adresse précise dans le Discord, mais voici une idée de l'endroit où se déroulera le festival 📌"
       />
       <AccessSectionOne />
-      <AccessSectionTwo />
     </>
   );
 };
