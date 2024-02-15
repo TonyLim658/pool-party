@@ -21,12 +21,12 @@ const menuData: Menu[] = [
       }
     ],
   },
-  {
-    id: 2,
-    title: "Programmation",
-    path: "/programmation",
-    newTab: false,
-  },
+  // {
+  //   id: 2,
+  //   title: "Programmation",
+  //   path: "/programmation",
+  //   newTab: false,
+  // },
   {
     id: 3,
     title: "Rôles",
