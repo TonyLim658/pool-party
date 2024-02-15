@@ -17,7 +17,6 @@ const Join = () => {
             <div className="w-full px-4 lg:w-3/5">
               <SectionTitle
                 title="Nous Rejoindre"
-                paragraph="Pour nous rejoindre il faudra remplir un formulaire et verser une cotisation dans la cagnotte pour les non musiciens. La communication interne se fait par Discord."
                 mb="10px"
                 width="auto"
               />
@@ -25,6 +24,18 @@ const Join = () => {
                 className="wow fadeInUp mb-12 lg:mb-4"
                 data-wow-delay=".15s"
               >
+                <div className="mb-4 text-base text-black dark:text-white">
+                  {"Tu souhaites prendre part à La Poule Party et rejoindre d'autres poussins ? Super ! Voici les étapes à suivre :"}
+                </div>
+                <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
+                  {"1 - Tu remplis le formulaire d'inscription, cela prend seulement 5 minutes, c'est pour apprendre à te connaître et te laisser choisir les pôles de bénévole !🐤"}
+                </div>
+                <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
+                  {"2 - Tu paies ta place via la cagnotte, pense bien à mettre le même nom que sur le formulaire 😉"}
+                </div>
+                <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
+                  {"3 - Tu rejoins le discord pour avoir toutes les infos à venir et poser tes questions si besoin ! 🤓"}
+                </div>
                 <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
                   📝 Liste des Formulaires:
                 </div>
@@ -50,7 +61,7 @@ const Join = () => {
                 </div>
               </div>
               <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
-                La communication interne se fait par Discord, le minimum de la cagnotte est de 30€
+                La communication interne se fait par Discord, le minimum de la cagnotte est de 50€
               </div>
               <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-6 sm:space-y-0 mb-4">
                   <Link

@@ -14,11 +14,10 @@ const RolesPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Rôles"
+        description="Page des rôles et pôles de la Poule Party, les responsables et les bénévoles se mettrons à jour sur cette page."
       />
       <RolesSectionOne />
-      <RolesSectionTwo />
     </>
   );
 };
