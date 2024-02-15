@@ -39,11 +39,11 @@ const menuData: Menu[] = [
     path: "/access",
     newTab: false,
   },
-  {
-    id: 5,
-    title: "À propos",
-    path: "/about",
-    newTab: false,
-  }
+  // {
+  //   id: 5,
+  //   title: "LE LORE",
+  //   path: "/about",
+  //   newTab: false,
+  // }
 ];
 export default menuData;
