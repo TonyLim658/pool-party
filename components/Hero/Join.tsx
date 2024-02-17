@@ -40,7 +40,7 @@ const Join = () => {
                     >
                       Bénévole
                     </Link>
-                    <Link
+                    {/* <Link
                       href="/"  // TODO: Add the link to the form
                       className="text-sm sm:text-base inline-block px-4 md:px-6 py-1.5 rounded-sm bg-violet-400 font-semibold text-black duration-300 ease-in-out hover:bg-violet-400/90"
                     >
@@ -51,7 +51,7 @@ const Join = () => {
                       className="text-sm sm:text-base inline-block px-4 md:px-6 py-1.5 rounded-sm bg-fuchsia-400 font-semibold text-black duration-300 ease-in-out hover:bg-fuchsia-400/90"
                     >
                       Exposant
-                    </Link>
+                    </Link> */}
                 </div>
               </div>
               <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
