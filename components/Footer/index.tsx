@@ -45,9 +45,11 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://www.instagram.com/poulepartycollectif/"
                     aria-label="social-link"
                     className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#959CB1"/>
@@ -67,21 +69,20 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Liens utiles
                 </h2>
                 <ul>
-                  <li>
+                  {/* <li> TODO add page
                     <a
                       href="/programmation"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
                       Programmation
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="/access"
@@ -92,8 +93,10 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="https://www.papayoux.com/fr/billet/poule-party"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Cagnotte
                     </a>
@@ -101,7 +104,6 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
@@ -135,7 +137,6 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
@@ -150,14 +151,14 @@ const Footer = () => {
                       Nous Rejoindre
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="/about"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
                       À propos
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="mailto:PoulePartyCrew@gmail.com"
@@ -170,7 +171,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">

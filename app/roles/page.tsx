@@ -15,7 +15,7 @@ const RolesPage = () => {
     <>
       <Breadcrumb
         pageName="Rôles"
-        description="Page des rôles et pôles de la Poule Party, les responsables et les bénévoles se mettrons à jour sur cette page."
+        description="Page des rôles et pôles de la Poule Party, les responsables et les bénévoles seront mis à jour sur cette page."
       />
       <RolesSectionOne />
     </>
