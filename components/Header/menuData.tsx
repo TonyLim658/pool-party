@@ -39,6 +39,12 @@ const menuData: Menu[] = [
     path: "/access",
     newTab: false,
   },
+  {
+    id: 5,
+    title: "Diapo annonce 17/02",
+    path: "/diapo",
+    newTab: false,
+  },
   // {
   //   id: 5,
   //   title: "LE LORE",
