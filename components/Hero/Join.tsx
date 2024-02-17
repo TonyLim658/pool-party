@@ -31,12 +31,13 @@ const Join = () => {
                   {"1 - Tu remplis le formulaire d'inscription, cela prend seulement 5 minutes, c'est pour apprendre à te connaître et te laisser choisir les pôles de bénévole !🐤"}
                 </div>
                 <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
-                  📝 Liste des Formulaires:
+                  {"📝 Liste des Formulaires: (Musiciens & Exposants à venir)"}
                 </div>
                 <div className="flex justify-evenly sm:space-x-4 sm:space-y-0">
                     <Link
-                      href="/"  // TODO: Add the link to the form
+                      href="https://framaforms.org/formulaire-benevole-1708169729"
                       className="text-sm md:text-base inline-block px-4 md:px-6 py-1.5 rounded-sm bg-sky-400 font-semibold text-black duration-300 ease-in-out hover:bg-sky-400/90"
+                      target="_blank"
                     >
                       Bénévole
                     </Link>
