@@ -120,22 +120,26 @@ const Footer = () => {
                       Bénévole
                     </a>
                   </li>
-                  {/* <li>
+                  <li>
                     <a
-                      href="/"
+                      href="https://framaforms.org/formulaire-artistes-1708905014"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Artistes Scéniques
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="https://framaforms.org/formulaire-exposantes-1708533780"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      Exposants
+                      Exposant·e·s
                     </a>
-                  </li> */}
+                  </li>
                 </ul>
               </div>
             </div>
