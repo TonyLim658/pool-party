@@ -41,7 +41,7 @@ const menuData: Menu[] = [
   },
   {
     id: 5,
-    title: "Diapo annonce 17/02",
+    title: "Annonce du 17/02",
     path: "/diapo",
     newTab: false,
   },

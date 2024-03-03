@@ -31,7 +31,7 @@ const Join = () => {
                   {"1 - Tu remplis le formulaire d'inscription, cela prend seulement 5 minutes, c'est pour apprendre à te connaître et te laisser choisir les pôles de bénévole !🐤"}
                 </div>
                 <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
-                  {"📝 Liste des Formulaires: (Musicien·ne·s & Exposant·e·s à venir)"}
+                  {"📝 Liste des Formulaires:"}
                 </div>
                 <div className="flex justify-evenly sm:space-x-4 space-y-0">
                     <Link

@@ -14,7 +14,7 @@ const DiapoSectionOne = () => {
                     target="_blank"
               >
                 <div className="flex gap-x-2">
-                  ✉️ Télecharger le diaporama en PDF FULL QUALITÉ ⭐
+                  ✉️ Télecharger le diaporama en PDF FULL HD ⭐
                 </div>
               </Link>
             </div>
