@@ -91,7 +91,7 @@ const Footer = () => {
                       Accès au lieu
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="https://www.papayoux.com/fr/billet/poule-party"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
@@ -100,7 +100,7 @@ const Footer = () => {
                     >
                       Cagnotte
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

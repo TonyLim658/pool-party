@@ -60,9 +60,9 @@ const Join = () => {
               <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
                 {"2 - Tu rejoins le discord pour avoir toutes les infos à venir, poser tes questions et proposer des idées ! 🤓"}
               </div>
-              <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
+              {/* <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
                 {"3 - Tu paies ta place via la cagnotte, pense à mettre le même nom que sur le formulaire 😉"}
-              </div>
+              </div> */}
               <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
                 {"L’ordre de participation à la cagnotte sera le dernier critère pour départager la sélection des pôles 🚀"}
               </div>
@@ -79,7 +79,7 @@ const Join = () => {
                     </svg>
                   </div>
                 </Link>
-                <Link
+                {/* <Link
                   href="https://www.papayoux.com/fr/billet/poule-party"
                   className="inline-block rounded-sm bg-amber-500 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-amber-500/90"
                   target="_blank"
@@ -92,7 +92,7 @@ const Join = () => {
                       <path fill="#FFD500" stroke-opacity="1" stroke="black" stroke-width="5" d="M510.863,233c13.7,5.4,28.7,8.4,44.4,8.4c7.699,0,15.199-0.7,22.399-2.1c30.601-5.7,57.101-23,74.8-47.1 c14.7-20,23.4-44.7,23.4-71.5c0.1-66.7-54-120.7-120.6-120.7c-66.7,0-120.7,54-120.7,120.7c0,17.3,3.6,33.7,10.2,48.6 C457.462,198.3,481.363,221.3,510.863,233z"/>
                     </svg>
                   </div>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
