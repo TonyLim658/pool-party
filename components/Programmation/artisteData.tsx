@@ -8,8 +8,8 @@ const artisteData: Artiste[] = [
     description: "Orange Amour est un groupe de musique populaire.",
     style: "Ballade, musique traditionnelle bretonne, folk, rock, jazz",
     image: "/images/programmation/orange_amour_370.png",
-    production: "production1",
-    productionType: "NA",
+    production: "images/programmation/orange_amour_mine_de_smile.mp3",
+    productionType: "LocalFile",
     reseau: ["NA"],
     reseauType: ["NA"],
     passage: "20h"
@@ -21,8 +21,8 @@ const artisteData: Artiste[] = [
     description: "Paloma! est un groupe de musique populaire.",
     style: "Musique pop, electro boom",
     image: "/images/programmation/paloma_370.png",
-    production: "production2",
-    productionType: "NA",
+    production: "https://open.spotify.com/embed/track/45Fzcs1c6UcetSmZXjlXpk?utm_source=generator",
+    productionType: "Spotify",
     reseau: ["NA"],
     reseauType: ["NA"],
     passage: "21h"

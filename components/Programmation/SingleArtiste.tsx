@@ -39,7 +39,10 @@ const SingleArtiste = ({ artiste }: { artiste: Artiste }) => {
             {style}
           </p>
           <div className="relative overflow-hidden rounded-2xl mb-4">
-            <iframe src="https://open.spotify.com/embed/track/45Fzcs1c6UcetSmZXjlXpk?utm_source=generator" width="100%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            {productionType === "LocalFile" && (
+            <audio id="youtube" controls loop src={production}></audio>)
+            }
+            {productionType === "Spotify" && (<iframe src={production} width="100%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>)}
           </div>
           <div className="flex items-center">
             <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
