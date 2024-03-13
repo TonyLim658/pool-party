@@ -19,7 +19,7 @@ const SingleArtiste = ({ artiste }: { artiste: Artiste }) => {
   return (
     <>
       <div
-        className="wow fadeInUp hover:shadow-two dark:hover:shadow-gray-dark group relative overflow-hidden rounded-sm bg-white shadow-one duration-300 dark:bg-dark"
+        className="wow fadeInUp hover:shadow-two group relative overflow-hidden dark:hover:border-slate-100  rounded-m bg-white shadow-one duration-300 dark:bg-dark"
         data-wow-delay=".1s"
       >
         <div

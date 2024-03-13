@@ -40,5 +40,31 @@ const artisteData: Artiste[] = [
     reseauType: ["NA"],
     passage: "22h"
   },
+  {
+    id: 4,
+    groupe: "Laura Pisto",
+    nom: "Laura (voix)",
+    description: "Chanteuse solo",
+    style: "Variété francaise",
+    image: "/images/blog/blog-01.jpg",
+    production: "production3",
+    productionType: "NA",
+    reseau: ["NA"],
+    reseauType: ["NA"],
+    passage: "22h"
+  },
+  {
+    id: 5,
+    groupe: "Laura Pisto",
+    nom: "Laura (voix)",
+    description: "Chanteuse solo",
+    style: "Variété francaise",
+    image: "/images/blog/blog-02.jpg",
+    production: "production3",
+    productionType: "NA",
+    reseau: ["NA"],
+    reseauType: ["NA"],
+    passage: "22h"
+  },
 ];
 export default artisteData;
